@@ -19,7 +19,7 @@ body {
     width: 100%;
     height: 8vh;
 
-    background-color: rgb(8, 16, 24);
+    background-color: rgb(13, 23, 34);
 
     border-bottom: .1vh solid rgb(82, 88, 107);
 }
@@ -64,10 +64,22 @@ body {
 
     padding: 1vh;
     
-    background-color: rgb(15, 35, 52);
+    background-color: rgb(9, 18, 26);
 
     border-radius: .5vh;
     border: .1vh solid rgb(82, 88, 107);
+}
+
+.footer-nav-container {
+    position: fixed;
+
+    bottom: 0;
+    left: 0;
+
+    width: 100%;
+    height: 6vh;
+
+    border-top: .1vh solid rgb(82, 88, 107);
 }
 
 

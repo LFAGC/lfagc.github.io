@@ -70,12 +70,14 @@
 
 @media (max-width: 1170px) {
     .content {
-        position: absolute;
+        position: relative;
 
         width: 100%;
     }
 
     .content-img {
-        display: none;
+       position: relative;
+       max-height: 20vh;
+       width: 100%;
     }
 }
