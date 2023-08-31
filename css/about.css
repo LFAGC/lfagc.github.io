@@ -8,6 +8,8 @@
 
     width: 60%;
     height: 100%;
+
+    z-index: -1;
 }
 
 .content-title {
@@ -36,7 +38,7 @@
     top: 20%;
     left: 0%;
 
-    width: 25vh;
+    width: 24%;
     height: max-content;
 
     border: .1vh solid rgb(82, 88, 107);
@@ -56,4 +58,11 @@
 .content-box-text {
     padding: 1vh;
     font-size: 1.5vh;
+}
+
+@media (max-width: 1400px) { 
+    .content-box {
+        width: 100%;
+        margin-right: .1vh;
+    }
 }
