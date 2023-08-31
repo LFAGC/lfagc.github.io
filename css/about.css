@@ -52,25 +52,44 @@
     left: 0%;
 
     width: 32.5%;
-    height: max-content;
+    height: 30vh;
 
     border: .1vh solid rgb(82, 88, 107);
     background-color: rgb(27, 28, 33);
     border-radius: .5vh;
 
     margin-right: .1vh;
-    margin-bottom: .4vh;
+    margin-bottom: .5vh;
 }
 
 .content-box-title {
-    padding: 1vh;
+    position: absolute;
+
+    left: 1vh;
+    top: 1vh;
+
     font-size: 1.5vh;
     font-weight: 600;
+
+    width: 95%;
 }
 
 .content-box-text {
-    padding: 1vh;
+    position: absolute;
+
+    left: 1vh;
+    top: 5vh;
+
     font-size: 1.5vh;
+
+    width: 95%;
+    height: 23vh;
+
+    overflow-y: auto;
+}
+
+.content-box-text::-webkit-scrollbar {
+    display: none;
 }
 
 
