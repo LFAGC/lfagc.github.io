@@ -1,0 +1,59 @@
+.content-container {
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 60%;
+    height: 100%;
+}
+
+.content-title {
+    position: absolute;
+
+    top: 10%;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    border-bottom: .1vh solid rgb(82, 88, 107);
+
+    width: 100%;
+}
+
+.content-title p {
+    font-size: 1.5vh;
+    padding: .25vh;
+    font-weight: 600;
+}
+
+.content-box {
+    position: relative;
+    display: inline-block;
+
+    top: 20%;
+    left: 0%;
+
+    width: 25vh;
+    height: max-content;
+
+    border: .1vh solid rgb(82, 88, 107);
+    background-color: rgb(27, 28, 33);
+    border-radius: .5vh;
+
+    margin-right: .4vh;
+    margin-bottom: .4vh
+}
+
+.content-box-title {
+    padding: 1vh;
+    font-size: 1.5vh;
+    font-weight: 600;
+}
+
+.content-box-text {
+    padding: 1vh;
+    font-size: 1.5vh;
+}
