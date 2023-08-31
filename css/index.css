@@ -71,12 +71,13 @@
 @media (max-width: 1170px) {
     .content {
         position: relative;
-
+        top: 20vh;
         width: 100%;
     }
 
     .content-img {
        position: relative;
+       top: 17vh;
        max-height: 20vh;
        width: 100%;
     }
