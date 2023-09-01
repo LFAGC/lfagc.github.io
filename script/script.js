@@ -2,10 +2,12 @@ $(document).on('click', '.nav-selector-button', function() {
     $('.nav-selector-button').fadeOut(100, function() {
         $('.nav-selector-close').fadeIn(100)
         $('.nav-button').css({'display':'block'})
+        $('.nav-selector-title ').fadeIn(100)
+        $('.current-page').css({'display':'none'})
     })
 
     $('.nav-container').animate({
-        'height': '30%',
+        'height': '32%',
     }, 100)
 
     $('.nav-container').css({
@@ -23,6 +25,8 @@ $(document).on('click', '.nav-selector-close', function() {
 
         $('.nav-selector-button').fadeIn(100)
         $('.nav-selector-close').fadeOut(100)
+        $('.nav-selector-title ').fadeOut(100)
         $('.nav-button').css({'display':'none'})
+        $('.current-page').css({'display':'block'})
     })
 })

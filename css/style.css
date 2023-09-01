@@ -76,6 +76,19 @@ body {
     margin-right: 1vh;
 }
 
+.nav-selector-title {
+    position: absolute;
+    display: none;
+
+    left: 50%;
+    top: 2.5vh;
+
+    transform: translate(-50%, 0);
+
+    font-size: 1.8vh;
+    font-weight: 600;
+}
+
 .nav-selector-button i {
     font-size: 2.5vh;
 }
@@ -125,7 +138,10 @@ body {
 
 @media (max-width: 1000px) { 
     .current-page {
-         display: none;
+        left: 7vh;
+        top: 1vh;
+        transform: none;
+        font-size: 2vh;
     }
 
     .footer-nav-container {
@@ -149,5 +165,9 @@ body {
 
     .nav-selector-button {
         display: block;
+    }
+
+    .nav-button p { 
+        font-size: 1.5vh;
     }
 }
