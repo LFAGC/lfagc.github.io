@@ -84,7 +84,7 @@
        position: relative;
        top: 18vh;
        max-height: 20vh;
-       width: max-content;
+       width: 10vh;
     }
 
     .content-title p {

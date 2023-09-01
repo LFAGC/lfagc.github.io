@@ -7,7 +7,7 @@ $(document).on('click', '.nav-selector-button', function() {
     })
 
     $('.nav-container').animate({
-        'height': '32%',
+        'height': '32vh',
     }, 100)
 
     $('.nav-container').css({
