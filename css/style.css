@@ -22,6 +22,8 @@ body {
     background-color: rgb(13, 23, 34);
 
     border-bottom: .1vh solid rgb(82, 88, 107);
+
+    overflow-x: auto;
 }
 
 .nav-button {
