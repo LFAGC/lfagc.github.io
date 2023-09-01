@@ -46,8 +46,9 @@
     padding: 1vh;
 }
 
-.content span {
+.content p {
     font-size: 1.5vh;
+    padding: .5vh;
 }
 
 
@@ -75,18 +76,22 @@
 
     .content {
         position: relative;
-        top: 20vh;
+        top: 19vh;
         width: 94%;
     }
 
     .content-img {
        position: relative;
-       top: 17vh;
+       top: 18vh;
        max-height: 20vh;
-       width: 94%;
+       width: max-content;
     }
 
-    .content span {
+    .content-title p {
+        font-size: 1.8vh;
+    }
+
+    .content p {
         font-size: 1.8vh;
     }
 }

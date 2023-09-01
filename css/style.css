@@ -22,8 +22,6 @@ body {
     background-color: rgb(13, 23, 34);
 
     border-bottom: .1vh solid rgb(82, 88, 107);
-
-    overflow-x: auto;
 }
 
 .nav-button {
@@ -35,16 +33,55 @@ body {
 
     transform: translate(0, -50%);
 
-    /* background-color: rgb(15, 35, 52); */
-
     text-decoration: none;
 
     border-radius: .5vh;
 
-    /* border: .1vh solid rgb(82, 88, 107); */
     padding: .5vh;
 
     margin-right: 1vh;
+}
+
+.nav-selector-button {
+    position: absolute;
+    display: none;
+
+    top: 1vh;
+    left: 1vh;
+
+    background-color: rgb(27, 28, 33);
+
+    border-radius: .5vh;
+
+    border: .1vh solid rgb(82, 88, 107);
+    padding: 1.45vh;
+
+    margin-right: 1vh;
+}
+
+.nav-selector-close {
+    position: absolute;
+    display: none;
+
+    top: 1vh;
+    right: 1vh;
+
+    background-color: rgb(27, 28, 33);
+
+    border-radius: .5vh;
+
+    border: .1vh solid rgb(82, 88, 107);
+    padding: 1.45vh;
+
+    margin-right: 1vh;
+}
+
+.nav-selector-button i {
+    font-size: 2.5vh;
+}
+
+.nav-selector-close i {
+    font-size: 2.5vh;
 }
 
 .nav-button p {
@@ -86,9 +123,31 @@ body {
     border-top: .1vh solid rgb(82, 88, 107);
 }
 
-
-@media (max-width: 1300px) {
+@media (max-width: 1000px) { 
     .current-page {
+         display: none;
+    }
+
+    .footer-nav-container {
         display: none;
+    }
+
+    .nav-button {
+        display: none;
+
+        top: 1vh;
+        transform: none;
+
+        border: .1vh solid rgb(82, 88, 107);
+        background-color: rgb(27, 28, 33);
+        border-radius: .5vh;
+
+        width: fit-content;
+
+        margin-bottom: 1vh;
+    }
+
+    .nav-selector-button {
+        display: block;
     }
 }
