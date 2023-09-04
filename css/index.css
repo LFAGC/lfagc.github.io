@@ -97,8 +97,9 @@
         transform: translate(-50%, 0);
         top: 22vh;
         left: 50%;
-        width: 40%;
+        width: 95%;
         max-width: 30vh;
+        min-width: 17vh;
         height: 31vh;
         object-fit: cover;
     }
