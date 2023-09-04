@@ -11,7 +11,7 @@ $(document).on('click', '.nav-selector-button', function() {
     }, 100)
 
     $('.nav-container').css({
-        'background-color': 'rgba(0, 0, 0, 0.483)',
+        'background-color': 'rgb(12, 15, 21)',
     })
 })
 

@@ -44,6 +44,17 @@
     border-radius: .5vh;
 
     padding: 1vh;
+
+    transition: .2s background-color;
+    transition: .2s border;
+}
+
+.content:hover {
+    border: .1vh solid rgb(45, 47, 57);
+    background-color: rgb(19, 19, 23);
+
+    transition: .2s background-color;
+    transition: .2s border;
 }
 
 .content p {
@@ -76,15 +87,20 @@
 
     .content {
         position: relative;
-        top: 19vh;
-        width: 94%;
+        right: 0vh;
+        top: 18vh;
+        width: 94.5%;
     }
 
     .content-img {
-       position: relative;
-       top: 18vh;
-       max-height: 20vh;
-       width: 10vh;
+        position: relative;
+        transform: translate(-50%, 0);
+        top: 22vh;
+        left: 50%;
+        width: 40%;
+        max-width: 30vh;
+        height: 31vh;
+        object-fit: cover;
     }
 
     .content-title p {
