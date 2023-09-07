@@ -14,7 +14,7 @@ export default function Home() {
     <div className='main-container w-full h-full'>
         {Navbars(PageName)}
         <div className="content-container">
-            <div className="content-title"><p>Over Mij</p><a href="/cv">Curriculum Vitae</a></div>
+            <div className="content-title"><span>Over Mij</span><a href="/cv">Curriculum Vitae</a></div>
 
             <div className="content-box">
                 <p className="content-box-title">Introductie</p>

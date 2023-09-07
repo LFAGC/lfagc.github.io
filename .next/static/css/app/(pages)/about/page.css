@@ -23,14 +23,14 @@
 
     transform: translate(-50%, 0);
 
-    border-bottom: .1vh solid rgb(82, 88, 107);
+    border-bottom: .5vh solid rgb(82, 88, 107);
 
     width: 97%;
-    height: 4.5vh;
+    height: 8vh;
 }
 
-.content-title p {
-    font-size: 1.5vh;
+.content-title span {
+    font-size: 4vh;
     padding: .25vh;
     font-weight: 700;
 }
@@ -39,20 +39,35 @@
     position: absolute;
 
     right: 0;
-    top: 0vh;
+    top: 1vh;
 
     font-size: 1.5vh;
-    padding: .25vh;
+    padding: 1vh;
     font-weight: 700;
 
     color: white;
+
+    border: .1vh solid rgb(82, 88, 107);
+    background-color: rgb(27, 28, 33);
+    border-radius: .5vh;
+
+    transition: .2s background-color;
+    transition: .2s border;
+}
+
+.content-title a:hover {
+    border: .1vh solid rgb(45, 47, 57);
+    background-color: rgb(19, 19, 23);
+
+    transition: .2s background-color;
+    transition: .2s border;
 }
 
 .content-box {
     position: relative;
     display: inline-block;
 
-    top: 20%;
+    top: 22%;
     left: 0%;
 
     width: 31%;

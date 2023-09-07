@@ -10,14 +10,14 @@
 
     transform: translate(-50%, 0);
 
-    border-bottom: .1vh solid rgb(82, 88, 107);
+    border-bottom: .5vh solid rgb(82, 88, 107);
 
     width: 100%;
-    height: 4.5vh;
+    height: 8vh;
 }
 
 .projects-title p {
-    font-size: 1.5vh;
+    font-size: 4vh;
     padding: .25vh;
     font-weight: 700;
 }
@@ -25,12 +25,12 @@
 .project-section {
     position: relative;
 
-    top: 24vh;
+    top: 27vh;
 
     height: max-content;
     width: 100%;
 
-    margin-bottom: 7vh;
+    padding-bottom: 7vh;
 }
 
 .project-title {
