@@ -184,6 +184,10 @@ body {
     height: 30vh;
 }
 
+.nav-selector-button-hide {
+    display: none;
+}
+
 .current-page-hide {
     display: none;
 }
