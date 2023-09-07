@@ -112,4 +112,11 @@
         z-index: 999;
     }
 
+    .pdf-title p {
+        font-weight: 400;
+    }
+
+    .pdf-title a {
+        font-weight: 400;
+    }
 }

@@ -148,9 +148,14 @@
 
     .content-title p {
         font-size: 1.8vh;
+        font-weight: 400;
     }
 
     .content p {
         font-size: 1.8vh;
+    }
+
+    .content-banner-head p {
+        font-weight: 400;
     }
 }

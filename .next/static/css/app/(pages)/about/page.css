@@ -99,7 +99,7 @@
     top: 2vh;
 
     font-size: 1.6vh;
-    font-weight: 600;
+    ;
 
     width: 95%;
 }
@@ -165,5 +165,17 @@
 
     .content-title p {
         font-size: 1.8vh;
+    }
+
+    .content-title span {
+        font-weight: 400;
+    }
+
+    .content-title a {
+        font-weight: 400;
+    }
+
+    .content-box-title {
+        font-weight: 400;
     }
 }

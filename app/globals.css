@@ -192,5 +192,14 @@ body {
 
     .nav-button p { 
         font-size: 1.5vh;
+        font-weight: 400;
+    }
+
+    .current-page {
+        font-weight: 400;
+    }
+
+    .nav-selector-title {
+        font-weight: 400;
     }
 }

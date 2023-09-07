@@ -161,4 +161,16 @@
     .content-title p {
         font-size: 1.8vh;
     }
+
+    .content-title span {
+        font-weight: 400;
+    }
+
+    .content-title a {
+        font-weight: 400;
+    }
+
+    .content-box-title {
+        font-weight: 400;
+    }
 }

@@ -239,4 +239,16 @@
         transition: .2s background-color;
         transition: .2s border;
     }
+
+    .projects-title p {
+        font-weight: 400;
+    }
+
+    .project-title span {
+        font-weight: 400;
+    }
+
+    .project-block-title {
+        font-weight: 400;
+    }
 }
