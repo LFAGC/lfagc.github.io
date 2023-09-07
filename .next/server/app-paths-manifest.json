@@ -1,6 +1,6 @@
 {
+  "/(pages)/about/page": "app/(pages)/about/page.js",
   "/(pages)/projects/page": "app/(pages)/projects/page.js",
   "/(pages)/(index)/page": "app/(pages)/(index)/page.js",
-  "/(pages)/cv/page": "app/(pages)/cv/page.js",
-  "/(pages)/about/page": "app/(pages)/about/page.js"
+  "/(pages)/cv/page": "app/(pages)/cv/page.js"
 }

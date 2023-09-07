@@ -32,7 +32,7 @@
 .content-title p {
     font-size: 1.5vh;
     padding: .25vh;
-    font-weight: 700;
+    font-weight: 600;
 }
 
 .content {
@@ -92,7 +92,7 @@
     height: -moz-max-content;
     height: max-content;
 
-    border-bottom: .5vh solid rgb(45, 47, 57);
+    border-bottom: .1vh solid rgb(45, 47, 57);
     z-index: -1;
 }
 

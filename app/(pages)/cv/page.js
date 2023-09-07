@@ -15,8 +15,8 @@ export default function Home() {
     <div className='w-full h-full'>
         {Navbars(PageName)}
 
-        <div class="pdf-container">
-            <div class="pdf-title"><p>Curriculum Vitae</p><a href="/about">Overmij</a></div>
+        <div className="pdf-container">
+            <div className="pdf-title"><p>Curriculum Vitae</p><a href="/about">Overmij</a></div>
             <iframe src={pdflink} className='pdf-document z-10'></iframe>
         </div>
     </div>
