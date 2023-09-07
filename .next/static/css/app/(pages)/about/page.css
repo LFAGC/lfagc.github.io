@@ -1,0 +1,159 @@
+/*!*****************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/styling/about.css ***!
+  \*****************************************************************************************************************************************************************************************************************************************************************/
+.content-container {
+    position: absolute;
+
+    top: 0%;
+    left: 50%;
+
+    transform: translate(-50%, 0%);
+
+    width: 60%;
+    height: 100%;
+
+    z-index: -1;
+}
+
+.content-title {
+    position: absolute;
+
+    top: 11%;
+    left: 48.5%;
+
+    transform: translate(-50%, 0);
+
+    border-bottom: .1vh solid rgb(82, 88, 107);
+
+    width: 97%;
+    height: 4.5vh;
+}
+
+.content-title p {
+    font-size: 1.5vh;
+    padding: .25vh;
+    font-weight: 700;
+}
+
+.content-title a {
+    position: absolute;
+
+    right: 0;
+    top: 0vh;
+
+    font-size: 1.5vh;
+    padding: .25vh;
+    font-weight: 700;
+
+    color: white;
+}
+
+.content-box {
+    position: relative;
+    display: inline-block;
+
+    top: 20%;
+    left: 0%;
+
+    width: 31%;
+    height: 30vh;
+
+    border: .1vh solid rgb(82, 88, 107);
+    background-color: rgb(27, 28, 33);
+    border-radius: .5vh;
+
+    margin-right: 2vh;
+    margin-bottom: 5vh;
+
+    transition: .2s background-color;
+    transition: .2s border;
+}
+
+.content-box:hover {
+    border: .1vh solid rgb(45, 47, 57);
+    background-color: rgb(19, 19, 23);
+
+    transition: .2s background-color;
+    transition: .2s border;
+}
+
+.content-box-title {
+    position: absolute;
+
+    left: 1vh;
+    top: 2vh;
+
+    font-size: 1.6vh;
+    font-weight: 700;
+
+    width: 95%;
+}
+
+.content-box-text {
+    position: absolute;
+
+    left: 1vh;
+    top: 6vh;
+
+    font-size: 1.5vh;
+
+    width: 95%;
+    height: 23vh;
+
+    overflow-y: auto;
+}
+
+.content-box-text::-webkit-scrollbar {
+    display: none;
+}
+
+
+@media (max-width: 1600px) { 
+    .content-box {
+        width: 46%;
+    }
+}
+
+@media (max-width: 1000px) { 
+
+    .content-title {
+        top: 7.5%;
+    }
+
+    .content-box {
+        top: 14.5%;
+        width: 100%;
+        height: -moz-max-content;
+        height: max-content;
+    }
+
+    .content-box-title {
+        position: relative;
+        font-size: 1.8vh;
+        margin-bottom: 2vh;
+    }
+
+    .content-box-text {
+        position: relative;
+        top: 1vh;
+        font-size: 1.8vh;
+        padding: .5vh;
+        height: -moz-max-content;
+        height: max-content;
+        margin-bottom: 2vh;
+    }
+
+    .content-container {
+        width: 90%;
+        height: 150%;
+    }
+
+    .content-title p {
+        font-size: 1.8vh;
+    }
+    
+    .content-title a {
+        display: none;
+    }
+    
+}

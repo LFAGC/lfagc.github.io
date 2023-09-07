@@ -29,13 +29,13 @@
 .content-title p {
     font-size: 1.5vh;
     padding: .25vh;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .content {
     position: absolute;
 
-    top: 20%;
+    top: 38vh;
     left: 0;
 
     width: 40%;
@@ -59,7 +59,7 @@
 }
 
 .content p {
-    font-size: 1.5vh;
+    font-size: 1.8vh;
     padding: .5vh;
 }
 
@@ -68,7 +68,7 @@
     position: absolute;
 
     right: 0;
-    top: 20vh;
+    top: 30vh;
 
     width: 30vh;
     padding: 1vh;
@@ -79,7 +79,51 @@
     border-radius: .5vh;
 }
 
+.content-banner-head {
+    position: relative;
+
+    left: 0;
+    top: 18vh;
+
+    width: 100%;
+    height: max-content;
+
+    border-bottom: .5vh solid rgb(45, 47, 57);
+    z-index: -1;
+}
+
+.content-banner-head p {
+    font-size: 6vh;
+    font-weight: 600;
+}
+
+.content-banner-bottom {
+    position: relative;
+
+    left: 0;
+    top: 20vh;
+
+    width: fit-content;
+    height: max-content;
+
+    border-bottom: .1vh solid rgb(45, 47, 57);
+}
+
+.content-banner-bottom p {
+    font-size: 1.6vh;
+    font-weight: 400;
+    margin-bottom: .5vh;
+}
+
 @media (max-width: 1170px) {
+    .content-banner-head {
+        top: 14vh;
+    }
+
+    .content-banner-bottom {
+        top: 16vh;
+    }
+
     .content-container {
         width: 90%;
     }
@@ -87,16 +131,15 @@
     .content {
         position: relative;
         right: 0vh;
-        top: 18vh;
+        top: 20vh;
         width: 100%;
     }
 
     .content-img {
         position: relative;
-        transform: translate(-50%, 0);
-        top: 22vh;
-        left: 50%;
-        width: 95%;
+        top: 18vh;
+        right: 0%;
+        width: 100%;
         max-width: 30vh;
         min-width: 17vh;
         height: 31vh;

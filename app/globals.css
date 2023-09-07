@@ -97,7 +97,7 @@ body {
     transform: translate(-50%, 0);
 
     font-size: 1.8vh;
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .nav-selector-button i {
@@ -112,7 +112,7 @@ body {
     color: white;
     text-decoration: none;
     font-size: 1.3vh;
-    font-weight: 600;
+    font-weight: 700;
 
     transition: .2s color;
 }
@@ -140,7 +140,7 @@ body {
     border-radius: .5vh;
     border: .1vh solid rgb(82, 88, 107);
 
-    font-weight: 600;
+    font-weight: 700;
 }
 
 .footer-nav-container {

@@ -1,0 +1,188 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[5].oneOf[12].use[3]!./app/styling/project.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************/
+.projects-container {
+    padding-bottom: 10vh;
+}
+
+.projects-title {
+    position: absolute;
+
+    top: 11vh;
+    left: 50%;
+
+    transform: translate(-50%, 0);
+
+    border-bottom: .1vh solid rgb(82, 88, 107);
+
+    width: 100%;
+    height: 4.5vh;
+}
+
+.projects-title p {
+    font-size: 1.5vh;
+    padding: .25vh;
+    font-weight: 700;
+}
+
+.project-section {
+    position: relative;
+
+    top: 24vh;
+
+    height: -moz-max-content;
+
+    height: max-content;
+    width: 100%;
+
+    margin-bottom: 7vh;
+}
+
+.project-title {
+    position: absolute;
+
+    top: -5vh;
+    width: 97%;
+}
+
+.project-title span {
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+
+.project-block {
+    position: relative;
+    display: inline-block;
+
+    margin-bottom: 3vh;
+    margin-right: 3vh;
+
+    border: .1vh solid rgb(82, 88, 107);
+    background-color: rgb(27, 28, 33);
+    border-radius: .5vh;
+
+    width: 46.5%;
+
+    height: 38vh;
+
+    transition: .2s background-color;
+    transition: .2s border;
+}
+
+.project-block-img {
+    position: absolute;
+
+    top: 56%;
+    left: 1vh;
+
+    transform: translate(0, -50%);
+
+    height: 80%;
+    width: 96%;
+
+    -o-object-fit: cover;
+
+       object-fit: cover;
+
+    padding: .5vh;
+    border: .1vh solid rgb(82, 88, 107);
+    background-color: rgb(27, 28, 33);
+    border-radius: .5vh;
+
+    transition: .2s width;
+}
+
+.project-block-title {
+    position: absolute;
+
+    top: 2vh;
+    left: 1vh;
+
+    font-weight: 700;
+    font-size: 1.6vh;
+}
+
+.project-block-desc {
+    position: absolute;
+
+    right: 1vh;
+    top: 56%;
+
+    transform: translate(0, -50%);
+
+    width: 45%;
+    height: 80%;
+
+    opacity: 0; 
+    transition: .2s opacity;
+
+    border: .1vh solid rgb(82, 88, 107);
+    background-color: rgb(27, 28, 33);
+    border-radius: .5vh;
+}
+
+.project-block-desc p{
+    position: absolute;
+
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    height: 90%;
+    width: 90%;
+
+    overflow: hidden;
+
+    font-size: 1.5vh;
+}
+
+.project-block:hover .project-block-img {
+    position: absolute;
+
+    left: 1vh;
+    top: 56%;
+
+    transform: translate(0, -50%);
+
+    width: 45%;
+
+    transition: .2s width;  
+}
+
+.project-block:hover .project-block-desc {
+    opacity: 1;
+    transition: .2s opacity;
+}
+
+.project-block:hover {
+    border: .1vh solid rgb(45, 47, 57);
+    background-color: rgb(19, 19, 23);
+
+    transition: .2s background-color;
+    transition: .2s border;
+}
+
+@media (max-width: 1500px) { 
+    .project-block {
+        width: 45%;
+    }
+}
+
+@media (max-width: 1300px) { 
+    .project-block {
+        width: 95%;
+        height: 40vh;
+    }
+}
+
+@media (max-width: 1000px) { 
+    .projects-container {
+        width: 90%;
+    }
+
+    .project-block {
+        width: 95%;
+        height: 35vh;
+    }
+}
