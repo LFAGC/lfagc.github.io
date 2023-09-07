@@ -51,6 +51,7 @@ body {
     padding: .5vh;
 
     margin-right: 1vh;
+    transition: .2s opacity;
 }
 
 .nav-selector-button {
@@ -85,6 +86,9 @@ body {
     padding: 1.45vh;
 
     margin-right: 1vh;
+
+    opacity: 0;
+    transition: .2s opacity;
 }
 
 .nav-selector-title {
@@ -98,6 +102,9 @@ body {
 
     font-size: 1.8vh;
     font-weight: 600;
+
+    opacity: 0;
+    transition: .2s opacity;
 }
 
 .nav-selector-button i {
@@ -159,7 +166,33 @@ body {
     z-index: 5;
 }
 
+.nav-selector-title-show {
+    display: block;
+
+    opacity: 1;
+    transition: .2s opacity;
+}
+
+.nav-selector-close-show {
+    display: block;
+
+    opacity: 1;
+    transition: .2s opacity;
+}
+
+.nav-container-open {
+    height: 30%;
+}
+
+.current-page-hide {
+    display: none;
+}
+
 @media (max-width: 1000px) { 
+    .current-page-hide {
+        display: none;
+    }
+
     .current-page {
         left: 7vh;
         top: 1vh;
@@ -184,15 +217,29 @@ body {
         width: fit-content;
 
         margin-bottom: 1vh;
+
+        opacity: 0;
+        transition: .2s opacity;
+    }
+
+    .nav-button-show {
+        display: block;
+    
+        opacity: 1;
+        transition: .2s opacity;
+    
+        z-index: 999;
     }
 
     .nav-selector-button {
         display: block;
     }
 
-    .nav-button p { 
-        font-size: 1.5vh;
+    .nav-button p {
+        margin-top: .2vh; 
+        font-size: 1.8vh;
         font-weight: 400;
+        padding: .75vh;
     }
 
     .current-page {

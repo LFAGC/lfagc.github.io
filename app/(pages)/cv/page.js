@@ -1,5 +1,4 @@
 import Navbars from '../../components/navbar.js'
-import Image from 'next/image';
 import '../../styling/cv.css';
 
 let PageName = 'Curriculum Vitae'

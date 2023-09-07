@@ -14,7 +14,7 @@ export default function Home() {
     <>
       { Navbars(PageName)}
       <div className='w-3/5 absolute left-1/2 top-0 -translate-x-1/2 h-max projects-container'>
-        <div class="projects-title"><p>Mijn Projecten</p></div>
+        <div className="projects-title"><p>Mijn Projecten</p></div>
 
         <div className='project-section'>
           <div className='project-title'><span>Huidig</span></div>
