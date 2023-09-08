@@ -181,10 +181,10 @@ body {
     transition: .2s opacity;
 }
 
-.nav-container-open {
+/* .nav-container-open {
     height: 100%;
     transition: .2s height;
-}
+} */
 
 .nav-selector-button-hide {
     display: none;
