@@ -9,10 +9,7 @@ import { useEffect, useState } from 'react';
 
 let PageName = 'Mijn Projecten'
 
-export const metadata = {
-    title: 'Lars Werner | Mijn Projecten',
-    description: 'Alle informatie over mij',
-}
+
 
 
 
