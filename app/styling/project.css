@@ -99,12 +99,10 @@
     position: absolute;
 
     right: 1vh;
-    top: 56%;
-
-    transform: translate(0, -50%);
+    top: 6vh;
 
     width: 45%;
-    height: 80%;
+    height: max-content;
 
     opacity: 0; 
     transition: .2s opacity;
@@ -115,15 +113,13 @@
 }
 
 .project-block-desc p{
-    position: absolute;
+    position: relative;
 
-    top: 50%;
     left: 50%;
 
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 0);
 
-    height: 90%;
-    width: 90%;
+    padding: 1vh;
 
     overflow: hidden;
 
@@ -196,13 +192,19 @@
     }
 
     .project-block-desc {
+        position: absolute;
+        top: 9vh;
         width: 95%;
+        height: 70%;
     }
 
     .project-block-desc p {
         height: max-content;
         width: 90%;
         font-size: 2vh;
+        top: 50%;
+        left: 1vh;
+        transform: translate(0,-50%);
     }
 
     .project-block-title span {

@@ -42,6 +42,11 @@ export default function Home() {
                 <p className="content-box-title">Huidige Opleiding</p>
                 <p className="content-box-text">Ik zit nu op het Grafisch Lyceum Rotterdam. Ik volg hier Software Development met als volg opleiding Digital Signage. Op deze opleiding leer je vooral hoe je websites moet designen en uitwerken op de meest nette maniet.</p>
             </div>
+
+            <div className="content-box">
+                <p className="content-box-title">Toekomst</p>
+                <p className="content-box-text">Mijn doelen voor in de toekomst zijn om een goede stageplek te vinden en om een succesvolle full stack software ontwikkelaar te worden..</p>
+            </div>
         </div>
     </div>
   );
