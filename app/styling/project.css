@@ -260,6 +260,12 @@
         font-weight: 400;
     }
 
+    .projects-title {
+        position: relative;
+        height: max-content;
+
+    }
+
     .project-title span {
         font-weight: 400;
         font-size: 2.2vh;
@@ -267,5 +273,9 @@
 
     .project-block-title {
         font-weight: 400;font-size: 2.5vh;
+    }
+
+    .project-section {
+        top: 20vh;
     }
 }

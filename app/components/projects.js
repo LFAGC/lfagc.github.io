@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image.js';
 
 import '../globals.css'
+import '../styling/project.css'
 
 let Projects = function() {
     const [projects, setProjects] = useState([]);
